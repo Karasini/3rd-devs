@@ -8,7 +8,8 @@
     "@types/node": "^22.7.5",
     "@types/uuid": "^10.0.0",
     "drizzle-kit": "^0.24.2",
-    "tsx": "^4.19.1"
+    "tsx": "^4.19.1",
+    "bun-types": "latest"
   },
   "scripts": {
     "agent": "bun run agent/app.ts",
@@ -70,7 +71,9 @@
     "audio:dev": "vite --config vite.config.audio.ts",
     "map:dev": "vite --config vite.config.map.ts",
     "camera:dev": "vite --config vite.config.camera.ts",
-    "notes": "bun run notes/app.ts"
+    "notes": "bun run notes/app.ts",
+    "robot-login": "bun --bun run s01e01/robot-login/app.ts",
+    "verify": "bun s01e02/verify/app.ts"
   },
   "peerDependencies": {
     "typescript": "^5.6.3"
@@ -86,6 +89,7 @@
     "@microsoft/tiktokenizer": "^1.0.8",
     "@mistralai/mistralai": "^1.1.0",
     "@napi-rs/canvas": "^0.1.58",
+    "@playwright/test": "^1.49.0",
     "@qdrant/js-client-rest": "^1.12.0",
     "@spotify/web-api-ts-sdk": "^1.2.0",
     "@types/fluent-ffmpeg": "^2.1.26",
@@ -145,6 +149,7 @@
     "pdf2html": "3.1.0",
     "pdf2pic": "^3.1.3",
     "pdfjs-dist": "^4.7.76",
+    "playwright": "^1.49.0",
     "promptfoo": "^0.93.0",
     "puppeteer": "23.5.2",
     "recordrtc": "^5.6.2",
