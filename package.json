@@ -74,7 +74,8 @@
     "notes": "bun run notes/app.ts",
     "robot-login": "bun --bun run s01e01/robot-login/app.ts",
     "verify": "bun s01e02/verify/app.ts",
-    "json": "bun s01e03/json/app.ts"
+    "json": "bun s01e03/json/app.ts",
+    "censorship": "bun s01e05/censorship/app.ts"
   },
   "peerDependencies": {
     "typescript": "^5.6.3"
